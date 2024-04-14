@@ -1,0 +1,30 @@
+.search-bar input {
+    height: 2.5rem;
+    width: 35rem;
+    position: absolute;
+    top: 2.5%;
+    left: 32%;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-left: 5px; */
+}
+
+input::placeholder {
+    padding-left: 18px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar input {
+        position: fixed;
+        top: 3%;
+        left: 7%;
+    }
+
+    /* .btns {
+        margin-left: 10px;
+    } */
+
+}
